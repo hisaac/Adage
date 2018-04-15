@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4AEE5FC32083A3B200D1BFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FC22083A3B200D1BFEF /* AppDelegate.swift */; };
-		4AEE5FC52083A3B200D1BFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FC42083A3B200D1BFEF /* ViewController.swift */; };
-		4AEE5FC82083A3B200D1BFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEE5FC62083A3B200D1BFEF /* Main.storyboard */; };
 		4AEE5FCA2083A3B300D1BFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEE5FC92083A3B300D1BFEF /* Assets.xcassets */; };
 		4AEE5FCD2083A3B300D1BFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEE5FCB2083A3B300D1BFEF /* LaunchScreen.storyboard */; };
 		4AEE5FD82083A3B300D1BFEF /* AdageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FD72083A3B300D1BFEF /* AdageTests.swift */; };
 		4AEE5FE32083A3B300D1BFEF /* AdageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FE22083A3B300D1BFEF /* AdageUITests.swift */; };
+		4AEE5FF22083A61F00D1BFEF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FF12083A61F00D1BFEF /* MasterViewController.swift */; };
+		4AEE5FF42083A79600D1BFEF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FF32083A79600D1BFEF /* TabBarViewController.swift */; };
+		B77563E929A1C53A9D9276AB /* QuoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756864B9BB51A1AC2E2C81 /* QuoteListViewController.swift */; };
+		B7756C9BCA6FC88296AAF3D2 /* DemoQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756FD7365FED9F01732665 /* DemoQuotes.swift */; };
+		B7756D61EAC60200297CBC39 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775648A4C92AD93E394B4D2 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,6 @@
 /* Begin PBXFileReference section */
 		4AEE5FBF2083A3B200D1BFEF /* Adage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEE5FC22083A3B200D1BFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AEE5FC42083A3B200D1BFEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4AEE5FC72083A3B200D1BFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AEE5FC92083A3B300D1BFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AEE5FCC2083A3B300D1BFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AEE5FCE2083A3B300D1BFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		4AEE5FDE2083A3B300D1BFEF /* AdageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEE5FE22083A3B300D1BFEF /* AdageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdageUITests.swift; sourceTree = "<group>"; };
 		4AEE5FE42083A3B300D1BFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEE5FF12083A61F00D1BFEF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4AEE5FF32083A79600D1BFEF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B775648A4C92AD93E394B4D2 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		B7756864B9BB51A1AC2E2C81 /* QuoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteListViewController.swift; sourceTree = "<group>"; };
+		B7756FD7365FED9F01732665 /* DemoQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoQuotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				4AEE5FC22083A3B200D1BFEF /* AppDelegate.swift */,
-				4AEE5FC42083A3B200D1BFEF /* ViewController.swift */,
-				4AEE5FC62083A3B200D1BFEF /* Main.storyboard */,
+				4AEE5FF02083A5EC00D1BFEF /* Views */,
+				B77560E497E3A0675E0823DB /* Quote */,
 				4AEE5FC92083A3B300D1BFEF /* Assets.xcassets */,
 				4AEE5FCB2083A3B300D1BFEF /* LaunchScreen.storyboard */,
 				4AEE5FCE2083A3B300D1BFEF /* Info.plist */,
@@ -123,6 +129,25 @@
 				4AEE5FE42083A3B300D1BFEF /* Info.plist */,
 			);
 			path = AdageUITests;
+			sourceTree = "<group>";
+		};
+		4AEE5FF02083A5EC00D1BFEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AEE5FF12083A61F00D1BFEF /* MasterViewController.swift */,
+				4AEE5FF32083A79600D1BFEF /* TabBarViewController.swift */,
+				B7756864B9BB51A1AC2E2C81 /* QuoteListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B77560E497E3A0675E0823DB /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				B7756FD7365FED9F01732665 /* DemoQuotes.swift */,
+				B775648A4C92AD93E394B4D2 /* Quote.swift */,
+			);
+			path = Quote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +256,6 @@
 			files = (
 				4AEE5FCD2083A3B300D1BFEF /* LaunchScreen.storyboard in Resources */,
 				4AEE5FCA2083A3B300D1BFEF /* Assets.xcassets in Resources */,
-				4AEE5FC82083A3B200D1BFEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AEE5FC52083A3B200D1BFEF /* ViewController.swift in Sources */,
+				4AEE5FF22083A61F00D1BFEF /* MasterViewController.swift in Sources */,
+				4AEE5FF42083A79600D1BFEF /* TabBarViewController.swift in Sources */,
 				4AEE5FC32083A3B200D1BFEF /* AppDelegate.swift in Sources */,
+				B77563E929A1C53A9D9276AB /* QuoteListViewController.swift in Sources */,
+				B7756C9BCA6FC88296AAF3D2 /* DemoQuotes.swift in Sources */,
+				B7756D61EAC60200297CBC39 /* Quote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AEE5FC62083A3B200D1BFEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AEE5FC72083A3B200D1BFEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4AEE5FCB2083A3B300D1BFEF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
