@@ -13,11 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
 
 	func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		initViews()
+		initializeViews()
 		return true
 	}
 
-	func initViews() {
+	func initializeViews() {
 		window = UIWindow(frame: UIScreen.main.bounds)
 
 		// Define initial views
@@ -26,9 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		let quoteListNavigationController = UINavigationController()
 		let quoteListViewController = QuoteListViewController()
 
+		let moreViewController = UIViewController()
+
 		// Build view heirarcy
 		quoteListNavigationController.pushViewController(quoteListViewController, animated: false)
-		tabBarViewController.addChildViewController(quoteListNavigationController)
+		tabBarViewController.viewControllers = [quoteListNavigationController, moreViewController]
+
+		quoteListNavigationController.tabBarItem = UITabBarItem(title: "Quotes", image: #imageLiteral(resourceName: "quote-icon-outline"), selectedImage: #imageLiteral(resourceName: "quote-icon-filled"))
+		moreViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .more, tag: 1)
 		masterViewController.addChildViewController(tabBarViewController)
 
 		// Add to root

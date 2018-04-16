@@ -15,6 +15,7 @@
 		4AEE5FF22083A61F00D1BFEF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FF12083A61F00D1BFEF /* MasterViewController.swift */; };
 		4AEE5FF42083A79600D1BFEF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE5FF32083A79600D1BFEF /* TabBarViewController.swift */; };
 		B77563E929A1C53A9D9276AB /* QuoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756864B9BB51A1AC2E2C81 /* QuoteListViewController.swift */; };
+		B77569BEA103E2BE6B2C6A49 /* QuoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756D5E5054D3DE1E74E6A4 /* QuoteDetailViewController.swift */; };
 		B7756C9BCA6FC88296AAF3D2 /* DemoQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7756FD7365FED9F01732665 /* DemoQuotes.swift */; };
 		B7756D61EAC60200297CBC39 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775648A4C92AD93E394B4D2 /* Quote.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		4AEE5FF32083A79600D1BFEF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		B775648A4C92AD93E394B4D2 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		B7756864B9BB51A1AC2E2C81 /* QuoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteListViewController.swift; sourceTree = "<group>"; };
+		B7756D5E5054D3DE1E74E6A4 /* QuoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteDetailViewController.swift; sourceTree = "<group>"; };
 		B7756FD7365FED9F01732665 /* DemoQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoQuotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 			children = (
 				B7756FD7365FED9F01732665 /* DemoQuotes.swift */,
 				B775648A4C92AD93E394B4D2 /* Quote.swift */,
+				B7756D5E5054D3DE1E74E6A4 /* QuoteDetailViewController.swift */,
 			);
 			path = Quote;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				B77563E929A1C53A9D9276AB /* QuoteListViewController.swift in Sources */,
 				B7756C9BCA6FC88296AAF3D2 /* DemoQuotes.swift in Sources */,
 				B7756D61EAC60200297CBC39 /* Quote.swift in Sources */,
+				B77569BEA103E2BE6B2C6A49 /* QuoteDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

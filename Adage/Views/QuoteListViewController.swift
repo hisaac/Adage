@@ -13,6 +13,8 @@ class QuoteListViewController: UITableViewController {
 		navigationController?.navigationBar.prefersLargeTitles = true
 		navigationController?.navigationBar.topItem?.title = NSLocalizedString("Quotes", comment: "Title bar for main quote list")
 		navigationItem.rightBarButtonItem = editButtonItem
+		let search = UISearchController(searchResultsController: nil)
+		navigationItem.searchController = search
 	}
 
 	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -24,5 +26,10 @@ class QuoteListViewController: UITableViewController {
 		let quote = DemoQuotes().quotes[indexPath.row]
 		cell.textLabel?.text = quote.text
 		return cell
+	}
+
+	override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+		let quoteDetailViewController = QuoteDetailViewController()
+		navigationController?.pushViewController(quoteDetailViewController, animated: true)
 	}
 }
