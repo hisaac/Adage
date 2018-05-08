@@ -9,12 +9,10 @@ import UIKit
 class QuoteListViewController: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		title = NSLocalizedString("Quotes", comment: "Title bar for main quote list")
+
 		tableView.register(UITableViewCell.self, forCellReuseIdentifier: "QuoteCell")
-		navigationController?.navigationBar.prefersLargeTitles = true
-		navigationController?.navigationBar.topItem?.title = NSLocalizedString("Quotes", comment: "Title bar for main quote list")
-		navigationItem.rightBarButtonItem = editButtonItem
-		let search = UISearchController(searchResultsController: nil)
-		navigationItem.searchController = search
+		tableView.allowsSelection = true
 	}
 
 	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,7 +27,8 @@ class QuoteListViewController: UITableViewController {
 	}
 
 	override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+		guard let navigationController = navigationController else { return }
 		let quoteDetailViewController = QuoteDetailViewController()
-		navigationController?.pushViewController(quoteDetailViewController, animated: true)
+		navigationController.pushViewController(quoteDetailViewController, animated: true)
 	}
 }
