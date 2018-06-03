@@ -1,8 +1,8 @@
 # Adage
 
 <p align="center">
-	<a href="./meta/screenshots/2018-05-31-adage-main-quote-list.png">
-		<img src="./meta/screenshots/2018-05-31-adage-main-quote-list.png" alt="The main quotes list view as of 2018-06-02" width="40%">
+	<a href="./meta/screenshots/2018-05-31-adage-main-quote-list-bordered.png">
+		<img src="./meta/screenshots/2018-05-31-adage-main-quote-list-bordered.png" alt="The main quotes list view as of 2018-05-31" width="40%">
 	</a><br />
 	<caption><em>The main quotes list view as of 2018-06-02</em></caption>
 </p>
