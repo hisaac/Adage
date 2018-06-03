@@ -1,5 +1,12 @@
 # Adage
 
+<p align="center">
+	<a href="./meta/screenshots/2018-05-31-adage-main-quote-list.png">
+		<img src="./meta/screenshots/2018-05-31-adage-main-quote-list.png" alt="The main quotes list view as of 2018-06-02" width="40%">
+	</a><br />
+	<caption><em>The main quotes list view as of 2018-06-02</em></caption>
+</p>
+
 Adage is two things:
 
 1. A place for all your favorite quotes to live.
